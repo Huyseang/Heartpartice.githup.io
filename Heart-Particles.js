@@ -1,9 +1,9 @@
 const startBtn = document.querySelector('.start-btn');
-const canva = document.querySelector('#c');
+const canvas = document.querySelector('#c');
 
 startBtn.addEventListener('click', ()=>{
   startBtn.style.display = 'none';
-  canva.style.display = 'block'
+  canvas.style.display = 'block'
 })
 
 var b = document.body;
